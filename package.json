@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-helper-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive Solidity library for Bitcoin-related operations and utilities",
   "main": "index.js",
   "types": "index.d.ts",
