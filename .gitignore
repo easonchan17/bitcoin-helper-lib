@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+
+# Hardhat
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Build outputs
+dist/
+build/
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+.yarn-integrity
+tmp/
+temp/

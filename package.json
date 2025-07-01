@@ -1,0 +1,65 @@
+{
+  "name": "bitcoin-helper-lib",
+  "version": "1.0.0",
+  "description": "A comprehensive Solidity library for Bitcoin-related operations and utilities",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "contracts/",
+    "artifacts/",
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean",
+    "build": "npm run compile && npm run build:artifacts",
+    "build:artifacts": "node scripts/build-artifacts.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "solidity",
+    "bitcoin",
+    "ethereum",
+    "blockchain",
+    "library",
+    "smart-contracts",
+    "bitcoin-parsing",
+    "typed-memory-view"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.0",
+    "@openzeppelin/contracts": "4.9.3",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "chai": "^4.2.0",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.17.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.5",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.2.0",
+    "typescript": ">=4.5.0"
+  },
+  "peerDependencies": {
+    "@openzeppelin/contracts": "4.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bitcoin-helper-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/bitcoin-helper-lib/issues"
+  },
+  "homepage": "https://github.com/yourusername/bitcoin-helper-lib#readme"
+}
